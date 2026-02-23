@@ -1,0 +1,43 @@
+{
+  "name": "productapi",
+  "version": "1.0.0",
+  "description": "Product API built with TypeScript and Express",
+  "main": "src/app.ts",
+  "scripts": {
+    "start:watch": "nodemon src/app.ts",
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "helmet": "^5.1.1",
+    "mysql2": "^3.16.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.25",
+    "@types/mysql": "^2.15.27",
+    "@types/node": "^17.0.45",
+    "@types/uuid": "^8.3.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prashantkhamitkar/product_app_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Prashantkhamitkar/product_app_api/issues"
+  },
+  "homepage": "https://github.com/Prashantkhamitkar/product_app_api#readme"
+}
